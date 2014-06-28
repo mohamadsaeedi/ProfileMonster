@@ -10,4 +10,12 @@
 
 @interface ProfileMonster : NSObject
 
+
+@property (nonatomic, strong) NSString *firstName;
+@property (nonatomic, strong) NSString *surname;
+@property (nonatomic, strong) NSString *addressLine1;
+@property (nonatomic, strong) NSString *addressLine2;
+@property (nonatomic, strong) NSString *postcode;
+@property (nonatomic, strong) NSString *city;
+
 @end
