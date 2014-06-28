@@ -18,4 +18,6 @@
 @property (nonatomic, strong) NSString *postcode;
 @property (nonatomic, strong) NSString *city;
 
+@property (nonatomic, strong) NSString *dob;
+
 @end
