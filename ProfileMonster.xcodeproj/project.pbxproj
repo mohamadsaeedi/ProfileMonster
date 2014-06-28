@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0888592F195F04CE00C4EABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888592E195F04CE00C4EABA /* Foundation.framework */; };
+		08885934195F04CE00C4EABA /* ProfileMonster.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 08885933195F04CE00C4EABA /* ProfileMonster.h */; };
+		08885936195F04CE00C4EABA /* ProfileMonster.m in Sources */ = {isa = PBXBuildFile; fileRef = 08885935195F04CE00C4EABA /* ProfileMonster.m */; };
+		0888593D195F04CE00C4EABA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888593C195F04CE00C4EABA /* XCTest.framework */; };
+		0888593E195F04CE00C4EABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888592E195F04CE00C4EABA /* Foundation.framework */; };
+		08885940195F04CE00C4EABA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888593F195F04CE00C4EABA /* UIKit.framework */; };
+		08885943195F04CE00C4EABA /* libProfileMonster.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0888592B195F04CE00C4EABA /* libProfileMonster.a */; };
+		08885949195F04CE00C4EABA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08885947195F04CE00C4EABA /* InfoPlist.strings */; };
+		0888594B195F04CE00C4EABA /* ProfileMonsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0888594A195F04CE00C4EABA /* ProfileMonsterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08885941195F04CE00C4EABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08885923195F04CE00C4EABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0888592A195F04CE00C4EABA;
+			remoteInfo = ProfileMonster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08885929195F04CE00C4EABA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				08885934195F04CE00C4EABA /* ProfileMonster.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0888592B195F04CE00C4EABA /* libProfileMonster.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProfileMonster.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888592E195F04CE00C4EABA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08885932195F04CE00C4EABA /* ProfileMonster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProfileMonster-Prefix.pch"; sourceTree = "<group>"; };
+		08885933195F04CE00C4EABA /* ProfileMonster.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileMonster.h; sourceTree = "<group>"; };
+		08885935195F04CE00C4EABA /* ProfileMonster.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileMonster.m; sourceTree = "<group>"; };
+		0888593B195F04CE00C4EABA /* ProfileMonsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileMonsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0888593C195F04CE00C4EABA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0888593F195F04CE00C4EABA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		08885946195F04CE00C4EABA /* ProfileMonsterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProfileMonsterTests-Info.plist"; sourceTree = "<group>"; };
+		08885948195F04CE00C4EABA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0888594A195F04CE00C4EABA /* ProfileMonsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileMonsterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08885928195F04CE00C4EABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888592F195F04CE00C4EABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08885938195F04CE00C4EABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888593D195F04CE00C4EABA /* XCTest.framework in Frameworks */,
+				08885940195F04CE00C4EABA /* UIKit.framework in Frameworks */,
+				08885943195F04CE00C4EABA /* libProfileMonster.a in Frameworks */,
+				0888593E195F04CE00C4EABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08885922195F04CE00C4EABA = {
+			isa = PBXGroup;
+			children = (
+				08885930195F04CE00C4EABA /* ProfileMonster */,
+				08885944195F04CE00C4EABA /* ProfileMonsterTests */,
+				0888592D195F04CE00C4EABA /* Frameworks */,
+				0888592C195F04CE00C4EABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0888592C195F04CE00C4EABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0888592B195F04CE00C4EABA /* libProfileMonster.a */,
+				0888593B195F04CE00C4EABA /* ProfileMonsterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0888592D195F04CE00C4EABA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0888592E195F04CE00C4EABA /* Foundation.framework */,
+				0888593C195F04CE00C4EABA /* XCTest.framework */,
+				0888593F195F04CE00C4EABA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08885930195F04CE00C4EABA /* ProfileMonster */ = {
+			isa = PBXGroup;
+			children = (
+				08885933195F04CE00C4EABA /* ProfileMonster.h */,
+				08885935195F04CE00C4EABA /* ProfileMonster.m */,
+				08885931195F04CE00C4EABA /* Supporting Files */,
+			);
+			path = ProfileMonster;
+			sourceTree = "<group>";
+		};
+		08885931195F04CE00C4EABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08885932195F04CE00C4EABA /* ProfileMonster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08885944195F04CE00C4EABA /* ProfileMonsterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0888594A195F04CE00C4EABA /* ProfileMonsterTests.m */,
+				08885945195F04CE00C4EABA /* Supporting Files */,
+			);
+			path = ProfileMonsterTests;
+			sourceTree = "<group>";
+		};
+		08885945195F04CE00C4EABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08885946195F04CE00C4EABA /* ProfileMonsterTests-Info.plist */,
+				08885947195F04CE00C4EABA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0888592A195F04CE00C4EABA /* ProfileMonster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0888594E195F04CE00C4EABA /* Build configuration list for PBXNativeTarget "ProfileMonster" */;
+			buildPhases = (
+				08885927195F04CE00C4EABA /* Sources */,
+				08885928195F04CE00C4EABA /* Frameworks */,
+				08885929195F04CE00C4EABA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProfileMonster;
+			productName = ProfileMonster;
+			productReference = 0888592B195F04CE00C4EABA /* libProfileMonster.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0888593A195F04CE00C4EABA /* ProfileMonsterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08885951195F04CE00C4EABA /* Build configuration list for PBXNativeTarget "ProfileMonsterTests" */;
+			buildPhases = (
+				08885937195F04CE00C4EABA /* Sources */,
+				08885938195F04CE00C4EABA /* Frameworks */,
+				08885939195F04CE00C4EABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08885942195F04CE00C4EABA /* PBXTargetDependency */,
+			);
+			name = ProfileMonsterTests;
+			productName = ProfileMonsterTests;
+			productReference = 0888593B195F04CE00C4EABA /* ProfileMonsterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08885923195F04CE00C4EABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Portofolio;
+			};
+			buildConfigurationList = 08885926195F04CE00C4EABA /* Build configuration list for PBXProject "ProfileMonster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08885922195F04CE00C4EABA;
+			productRefGroup = 0888592C195F04CE00C4EABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0888592A195F04CE00C4EABA /* ProfileMonster */,
+				0888593A195F04CE00C4EABA /* ProfileMonsterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08885939195F04CE00C4EABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08885949195F04CE00C4EABA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08885927195F04CE00C4EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08885936195F04CE00C4EABA /* ProfileMonster.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08885937195F04CE00C4EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0888594B195F04CE00C4EABA /* ProfileMonsterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08885942195F04CE00C4EABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0888592A195F04CE00C4EABA /* ProfileMonster */;
+			targetProxy = 08885941195F04CE00C4EABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08885947195F04CE00C4EABA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08885948195F04CE00C4EABA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0888594C195F04CE00C4EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0888594D195F04CE00C4EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0888594F195F04CE00C4EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ProfileMonster.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProfileMonster/ProfileMonster-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		08885950195F04CE00C4EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ProfileMonster.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProfileMonster/ProfileMonster-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		08885952195F04CE00C4EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProfileMonster/ProfileMonster-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProfileMonsterTests/ProfileMonsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08885953195F04CE00C4EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProfileMonster/ProfileMonster-Prefix.pch";
+				INFOPLIST_FILE = "ProfileMonsterTests/ProfileMonsterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08885926195F04CE00C4EABA /* Build configuration list for PBXProject "ProfileMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0888594C195F04CE00C4EABA /* Debug */,
+				0888594D195F04CE00C4EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0888594E195F04CE00C4EABA /* Build configuration list for PBXNativeTarget "ProfileMonster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0888594F195F04CE00C4EABA /* Debug */,
+				08885950195F04CE00C4EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08885951195F04CE00C4EABA /* Build configuration list for PBXNativeTarget "ProfileMonsterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08885952195F04CE00C4EABA /* Debug */,
+				08885953195F04CE00C4EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08885923195F04CE00C4EABA /* Project object */;
+}
